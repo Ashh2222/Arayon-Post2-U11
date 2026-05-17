@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c2b2ee3-493b-4037-a946-57cd846d3c04" name="Changes" comment="refactor: aplicar guard clauses en credito service">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pedidosservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvidenciaVisual/Analisis 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvidenciaVisual/Analisis 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvidenciaVisual/Analisis 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvidenciaVisual/Issues 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvidenciaVisual/Issues.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/EvidenciaVisual/Analisis 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/EvidenciaVisual/Analisis 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/EvidenciaVisual/Analisis 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/EvidenciaVisual/Issues 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/EvidenciaVisual/Issues.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pedidosservice/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/PedidosserviceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/domain/Pedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/domain/Producto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/domain/valueobjects/CodigoDescuento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/domain/valueobjects/DatosCliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/domain/valueobjects/Direccion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/domain/valueobjects/LineaPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/repository/PedidoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/service/NotificationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/java/com/universidad/pedidosservice/service/PedidoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidosservice/pedidosservice/src/test/java/com/universidad/pedidosservice/PedidosserviceApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="2c2b2ee3-493b-4037-a946-57cd846d3c04" name="Changes" comment="refactor: aplicar extract method y value objects en pedido service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +28,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Ashh2222/arayon-post1-u11.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Ashh2222/arayon-post2-u11.git&quot;,
     &quot;accountId&quot;: &quot;ff5a4339-ee11-4c49-a1f1-fa28b904dcc3&quot;
   }
 }</component>
@@ -87,122 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CreditoServiceTest.executor": "Run",
-    "JUnit.EnvioServiceTest.executor": "Run",
-    "JUnit.PedidosserviceApplicationTests.executor": "Run",
-    "JUnit.java in pedidosservice.executor": "Run",
-    "JUnit.service in pedidosservice.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ashle/Downloads/pedidosservice2/pedidosservice",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ashle/Downloads/pedidosservice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ashle\Downloads\pedidosservice2\pedidosservice" />
-      <recent name="C:\Users\ashle\Downloads\pedidosservice2\pedidosservice\src\test\java\com\universidad\pedidosservice" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ashle\Downloads\pedidosservice2\pedidosservice" />
-      <recent name="C:\Users\ashle\Downloads\pedidosservice2" />
-      <recent name="C:\Users\ashle\Downloads\pedidosservice2\EvidenciaVisual" />
       <recent name="C:\Users\ashle\Downloads\pedidosservice\EvidenciaVisual" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.universidad.pedidosservice.service.strategy" />
-      <recent name="com.universidad.pedidosservice.service" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in pedidosservice">
-    <configuration name="CreditoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidosservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.universidad.pedidosservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.universidad.pedidosservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.universidad.pedidosservice.service.CreditoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnvioServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidosservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.universidad.pedidosservice.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.universidad.pedidosservice.service" />
-      <option name="MAIN_CLASS_NAME" value="com.universidad.pedidosservice.service.EnvioServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PedidosserviceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidosservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.universidad.pedidosservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.universidad.pedidosservice" />
-      <option name="MAIN_CLASS_NAME" value="com.universidad.pedidosservice.PedidosserviceApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java in pedidosservice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidosservice" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/pedidosservice/src/test/java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="service in pedidosservice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pedidosservice" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/pedidosservice/src/test/java/com/universidad/pedidosservice/service" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="pedidosservice2" />
+      <module name="pedidosservice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="pedidosservice2" />
+      <module name="pedidosservice" />
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.java in pedidosservice" />
-        <item itemvalue="JUnit.service in pedidosservice" />
-        <item itemvalue="JUnit.PedidosserviceApplicationTests" />
-        <item itemvalue="JUnit.EnvioServiceTest" />
-        <item itemvalue="JUnit.CreditoServiceTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -259,118 +134,55 @@
       <option name="project" value="LOCAL" />
       <updated>1778972197586</updated>
     </task>
-    <task id="LOCAL-00006" summary="feat: preparar proyecto base para refactorizacion avanzada">
+    <task id="LOCAL-00006" summary="feat: iniciar proyecto base spring boot para refactorizacion">
       <option name="closed" value="true" />
-      <created>1778973096207</created>
+      <created>1778977087084</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1778973096207</updated>
+      <updated>1778977087085</updated>
     </task>
-    <task id="LOCAL-00007" summary="feat: agregar switch statement smell y arrow code">
+    <task id="LOCAL-00007" summary="feat: implementar servicio inicial con code smells deliberados">
       <option name="closed" value="true" />
-      <created>1778973354327</created>
+      <created>1778977182153</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1778973354328</updated>
+      <updated>1778977182154</updated>
     </task>
-    <task id="LOCAL-00008" summary="test: agregar pruebas base antes de refactorizacion">
+    <task id="LOCAL-00008" summary="refactor: crear value objects para eliminar primitive obsession">
       <option name="closed" value="true" />
-      <created>1778974276111</created>
+      <created>1778977230805</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1778974276111</updated>
+      <updated>1778977230808</updated>
     </task>
-    <task id="LOCAL-00009" summary="refactor: aplicar strategy pattern en envio service">
+    <task id="LOCAL-00009" summary="refactor: aplicar extract method y value objects en pedido service">
       <option name="closed" value="true" />
-      <created>1778974659421</created>
+      <created>1778977310263</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1778974659422</updated>
+      <updated>1778977310263</updated>
     </task>
-    <task id="LOCAL-00010" summary="refactor: aplicar guard clauses en credito service">
+    <task id="LOCAL-00010" summary="refactor: aplicar extract method y value objects en pedido service">
       <option name="closed" value="true" />
-      <created>1778974854028</created>
+      <created>1778977323027</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1778974854028</updated>
+      <updated>1778977323027</updated>
     </task>
-    <task id="LOCAL-00011" summary="fix:arreglar aprobarcredito para que tenga solo 6 lineas">
-      <option name="closed" value="true" />
-      <created>1778975761430</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1778975761430</updated>
-    </task>
-    <task id="LOCAL-00012" summary="docs: agregar documentacion final de refactorizacion avanzada">
-      <option name="closed" value="true" />
-      <created>1778976273828</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1778976273829</updated>
-    </task>
-    <task id="LOCAL-00013" summary="feat: preparar proyecto base para refactorizacion avanzada">
-      <option name="closed" value="true" />
-      <created>1778979814268</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1778979814268</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat: agregar switch statement smell y arrow code">
-      <option name="closed" value="true" />
-      <created>1778980310543</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1778980310543</updated>
-    </task>
-    <task id="LOCAL-00015" summary="test: agregar pruebas base antes de refactorizacion">
-      <option name="closed" value="true" />
-      <created>1778981439833</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1778981439835</updated>
-    </task>
-    <task id="LOCAL-00016" summary="refactor: aplicar strategy pattern en envio service">
-      <option name="closed" value="true" />
-      <created>1778982096432</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1778982096433</updated>
-    </task>
-    <task id="LOCAL-00017" summary="refactor: aplicar guard clauses en credito service">
-      <option name="closed" value="true" />
-      <created>1778982168662</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1778982168662</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: realizar documentacion y evidencias de refactorizacion" />
     <MESSAGE value="feat: iniciar proyecto base spring boot para refactorizacion" />
     <MESSAGE value="feat: implementar servicio inicial con code smells deliberados" />
     <MESSAGE value="refactor: crear value objects para eliminar primitive obsession" />
     <MESSAGE value="refactor: aplicar extract method y value objects en pedido service" />
-    <MESSAGE value="docs: realizar documentacion y evidencias de refactorizacion" />
-    <MESSAGE value="fix:arreglar aprobarcredito para que tenga solo 6 lineas" />
-    <MESSAGE value="docs: agregar documentacion final de refactorizacion avanzada" />
-    <MESSAGE value="feat: preparar proyecto base para refactorizacion avanzada" />
-    <MESSAGE value="feat: agregar switch statement smell y arrow code" />
-    <MESSAGE value="test: agregar pruebas base antes de refactorizacion" />
-    <MESSAGE value="refactor: aplicar strategy pattern en envio service" />
-    <MESSAGE value="refactor: aplicar guard clauses en credito service" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: aplicar guard clauses en credito service" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: aplicar extract method y value objects en pedido service" />
   </component>
 </project>

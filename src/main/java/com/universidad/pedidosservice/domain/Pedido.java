@@ -16,4 +16,7 @@ public class Pedido {
     public Long getId() {
         return id;
     }
+    public double getTotal() {
+        return total;
+    }
 }
